@@ -1,0 +1,157 @@
+//Get element by id
+
+//let headerElement = document.getElementById('header');
+//herElement.textContent = 'To-Do Apps';
+
+// let headerElement = document.getElementById('header');headerElement.textContent = 'TO-Do apps';
+// headerElement.textContent = 'TO-Do Appsss';
+// headerElement.innerText = 'TO-Do Appsss';
+// console.log(headerElement.textContent);//html page a jamon ase oi rokom output dai
+// console.log(headerElement.innerText);//browser a ...........
+// headerElement.style.color = 'red';
+// headerElement.style.fontSize ='50px';
+// console.dir(document);
+
+
+
+
+
+
+// //Get element by class
+// let items = (document.getElementsByClassName('item'));
+// for(let i=0; i<items.length ; i++){
+//     items[i].style.color = 'red';
+// }
+
+
+
+// let itemUL = document.getElementById('items');
+// let items = (items.getElementsByClassName('item'));
+// for(let i=0; i<items.length ; i++){
+//     items[i].style.color = 'red';
+// }
+
+
+//get element by tagname
+// let items = document.getElementsByTagName('li');
+// console.log(items);
+
+// console.log (document.getElementsByTagName('img'));
+
+
+
+
+
+// //Query selector
+// let header = document.querySelector('.header');
+// console.log(header);
+
+// let newTask = document.querySelector('#new-task');
+// console.log(newTask);
+
+
+
+// let lastItem = document.querySelector('.item:last-child');
+// lastItem.style.color = 'red';
+
+
+
+
+// let lastItems = document.querySelectorAll('.item:last-child');
+// console.log(lastItems);
+
+
+
+// for(let element of lastItems){
+//     element.style.color = 'red';
+// }
+
+
+
+
+
+
+
+
+
+
+////parent/child relation
+// const grandparent = document.querySelector('.todo-list');
+// const parent = grandparent.children;
+// const children = parent.children;
+// console.log(children);
+
+
+// const grandparent = document.querySelector('.todo-list');
+// const children = grandparent.querySelectorAll('.item');
+// console.log(children);
+
+
+
+
+
+
+// const children = document.querySelector('.item');
+// const parent = children.parentElement;
+// console.log(parent);
+
+
+
+// const children = document.querySelector('.item');
+// const grandparent =children.closest('.todo-list');
+// console.log(grandparent);
+
+
+// const childrenOne = document.querySelector('.item');
+// const childrenTwo = childrenOne.nextElementSibling;
+// childrenTwo.style.color = 'red';
+// console.log(childrenTwo);
+
+
+
+// const childrenTwo = document.querySelector('.item').nextElementSibling;
+// const childrenOne = childrenTwo.previousElementSibling;
+// childrenOne.style.color = 'red';
+
+
+
+
+
+
+
+
+
+
+// //creating an element
+// const divElement = document.createElement('div');
+// divElement.className ='red';
+// divElement.setAttribute('id', 'red');
+// divElement.setAttribute('title', 'Red Div');
+
+// const container = document.querySelector('.todo-list');
+// const h2Element = container.querySelector('h2');
+// container.insertBefore(divElement, h2Element);
+
+
+
+// //creating an element
+// const divElement = document.createElement('div');
+// divElement.className ='red';
+// divElement.setAttribute('id', 'red');
+// divElement.setAttribute('title', 'Red Div');
+
+// const container = document.querySelector('.todo-list');
+// container.appendChild(divElement);
+
+
+
+
+
+
+
+// //Event Lesting
+// const headerElement = document.querySelector('#header');//header element k dorlam ai line er maddome
+
+// headerElement.addEventListener('mouseup', (event) => {  //modusedown, mouseover, dblclick, mouseout
+//     console.log(event);
+// });
